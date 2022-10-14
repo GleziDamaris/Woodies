@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+#hero{
+    padding-top: 23px;
+}
+
+#navbar{
+    width: 1152px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu_link{
+    color: #222;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    padding: 9px 24px;
+}
+
+.menu_link:hover{   /*Esto es para que el cursor ilumine cada link*/
+    color: #DAA520;
+}
+
+.menu_bar{ /*Para que el menu quede arriba en horizontal*/
+    list-style: none;
+    display: flex;
+}
+
+.sing_up_button{
+    padding: 9px 36px;
+    border: 1px solid #3E3F43;
+    border-radius: 8px;
+    color: #3E3F43;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    margin-left: 24px;
+    height: 20px;
+    display: block;
+
+}
+
+#texto_1 {
+    position: absolute;
+    padding: 217px 102px;
+    width: 504px;
+    height: 98px;
+    top: 217px;
+    left: 102;
+    color: #3E3F43;
+    font-size: 36px;
+    font-weight: 400px;
+    top: 227px;
+    font-family: 'Nunito', sans-serif;
+    line-height: 49px;
+  }
+
+
+  #texto_2 {
+    margin-top: 15px;
+    position: absolute;
+    width: 504px;
+    height: 196px;
+    left: 102px;
+    top: 315px;
+    color: #313235;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+
+  }
+  
+  #mesa{
+    align-items: right;
+    padding-top: 65px;
+    background-size:25px 50px;
+    display: right;
+    position: relative;
+    padding-right: 100px;
+   }
+
+   .mesa_style{
+    position: relative; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+   }
+  
+   #grupo25{
+    align-items: center;
+    padding-top: 0px;
+    padding-left: 50%;
+    margin-top: 225px; 
+    margin-left: 600px;
+    position:relative;
+    display: center;
+    z-index: -auto;
+
+   }
+
+   .grupo25{
+    position: absolute;
+    left: 87px;
+    top: 0;
+   }
+  
+   .Explore_button {
+    padding: 9px 36px;
+    border: 1px solid #DAA520;
+    border-bottom: 4px;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    margin-left: 24px;
+    height: 20px;
+    background-color:#DAA520 ;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute; 
+    left: 0; 
+    bottom: 10%;
+  }
+  
+  #rectangulo{
+    position: absolute;
+    width: 370px;
+    height: 800px;
+    left: 953px;
+    top: 0px;
+    background: #F9BDBD;
+    z-index:-1; /*Para que quede la imagen detras del texto*/
+  }
+
+  .img_style{
+    position: relative; 
+    left: 0; 
+    top: 0;
+  }
+  
